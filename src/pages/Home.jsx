@@ -1,10 +1,10 @@
-import React from "react";
 import "./home.css";
+
 const Home = () => {
   return (
     <div className="container">
       <div className="nav">
-        <h2 className="logo">Logo</h2>
+        <img src="../../assets/shared/desktop/logo-dark.png" alt="" />
         <nav className="navbar">
           <li>Our company</li>
           <li>Location</li>
@@ -13,7 +13,15 @@ const Home = () => {
       </div>
 
       <header>
-        <h1>Head</h1>
+        <div className="head--info">
+          <h1>Award-winning custom designs and digital branding solutions</h1>
+          <p>
+            With over 10 years in the industry, we are experienced in creating
+            fully responsive websites, app design, and engaging brand
+            experiences. Find out more about our services.
+          </p>
+          <button>LEARN MORE</button>
+        </div>
       </header>
 
       <div className="web-design">

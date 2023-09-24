@@ -40,25 +40,67 @@ body {
   grid-column: 2 / 10;
 }
 
+.nav img {
+  height: 2.6rem;
+  cursor: pointer;
+}
+
 .navbar {
   display: flex;
   list-style: none;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
 }
 
 .navbar li {
-  margin-left: 1.4rem;
+  margin-left: 1.5rem;
+  letter-spacing: 0.35rem;
+  font-weight: 500;
   cursor: pointer;
 }
 
 header {
+  display: flex;
+  position: relative;
   background-color: var(--orange);
+  background-image: url(../../assets//home/desktop/image-hero-phone.png);
+  background-repeat: no-repeat;
+  background-position: bottom -20.3125rem right -13rem;
   border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
   margin-bottom: clamp(2rem, 7rem + 0.4vw, 9rem);
 
   grid-row: 2 / 3;
   grid-column: 2 / 10;
+}
+
+.head--info {
+  width: 48%;
+  padding: 0 4rem;
+  margin: auto 0;
+  color: var(--white);
+}
+
+.head--info h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.head--info p {
+  font-size: 1.8rem;
+  margin: 2rem 0;
+}
+
+.head--info button {
+  padding: 2.5rem;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: #eee;
+
+  transition: background-color 0.15s ease-in-out;
 }
 
 .web-design {
@@ -210,4 +252,5 @@ footer {
   grid-row: 7 / 9;
   grid-column: 1 / -1;
   height: 40rem;
+  padding: 15rem 2rem 5rem 2rem;
 }
