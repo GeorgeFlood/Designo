@@ -872,7 +872,9 @@ const Home = () => {
       </div>
 
       <footer>
-        <h1>footer</h1>
+        <div></div>
+
+        <div></div>
       </footer>
     </div>
   );

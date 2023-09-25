@@ -20,6 +20,14 @@ html {
 body {
   font-weight: 300;
   line-height: 1.6;
+  position: relative;
+  background-image: url(../../assets/shared/desktop/bg-pattern-leaf.svg),
+    url(../../assets/shared/desktop/bg-pattern-leaf.svg);
+  background-repeat: no-repeat;
+
+  background-position:
+    top 25rem left 0,
+    top 150rem left 30rem;
 }
 
 .container {
