@@ -192,6 +192,17 @@ header {
   margin: 0 2rem;
 }
 
+.passionate svg,
+.resourceful svg,
+.friendly svg {
+  background-image: linear-gradient(
+    to right,
+    rgba(200, 200, 200, 0.3) 70%,
+    transparent
+  );
+  border-radius: 50%;
+}
+
 .passionate h3,
 .resourceful h3,
 .friendly h3 {
