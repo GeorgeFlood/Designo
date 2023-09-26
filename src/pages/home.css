@@ -71,9 +71,12 @@ header {
   display: flex;
   position: relative;
   background-color: var(--orange);
-  background-image: url(../../assets//home/desktop/image-hero-phone.png);
+  background-image: url(../../assets/home/desktop/bg-pattern-hero-home.svg),
+    url(../../assets/home/desktop/image-hero-phone.png);
   background-repeat: no-repeat;
-  background-position: bottom -20.3125rem right -13rem;
+  background-position:
+    bottom -2rem right -2rem,
+    bottom -20.3125rem right -13rem;
   border-radius: 1rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
   margin-bottom: clamp(2rem, 7rem + 0.4vw, 9rem);
@@ -111,6 +114,10 @@ header {
   transition: background-color 0.15s ease-in-out;
 }
 
+.head--info button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .web-design {
   background-image: url(../../assets/home/desktop/image-web-design-large.jpg);
   background-position: center;
@@ -123,6 +130,7 @@ header {
   grid-column: 2 / 6;
 
   transition: background-color 0.2s ease-in-out;
+  display: flex;
 }
 
 .web-design:hover {
@@ -143,6 +151,7 @@ header {
   grid-column: 6 / 10;
 
   transition: background-color 0.2s ease-in-out;
+  display: flex;
 }
 
 .app-design:hover {
@@ -162,10 +171,30 @@ header {
 
   margin-bottom: 2rem;
   transition: background-color 0.2s ease-in-out;
+
+  display: flex;
 }
 
 .graphic-design:hover {
   background-color: rgba(232, 128, 105, 0.23);
+}
+
+.project-links {
+  text-align: center;
+  margin: auto;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.project-links h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.project-links p {
+  font-size: 1.8rem;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
 }
 
 .info {
@@ -222,7 +251,8 @@ header {
 
 .lets-talk {
   background-color: var(--orange);
-
+  background-image: url(../../assets/shared/desktop/bg-pattern-call-to-action.svg);
+  background-position: 100%;
   grid-row: 6 / 8;
   grid-column: 2 / 10;
   z-index: 10;
