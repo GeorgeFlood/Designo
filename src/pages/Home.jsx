@@ -1,16 +1,11 @@
 import "./home.css";
+import Navbar from "../components/Navbar";
+import Banner from "../components/banner";
 
 const Home = () => {
   return (
     <div className="container">
-      <div className="nav">
-        <img src="../../assets/shared/desktop/logo-dark.png" alt="" />
-        <nav className="navbar">
-          <li>Our company</li>
-          <li>Location</li>
-          <li>Contact</li>
-        </nav>
-      </div>
+      <Navbar />
 
       <header>
         <div className="head--info">
@@ -867,18 +862,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="lets-talk">
-        <div className="lets-talk__text">
-          <h1>Let's talk about your project</h1>
-          <p>
-            Ready to take it to the next level? Contact us today and find out
-            how our expertise can help your business grow.
-          </p>
-        </div>
-        <div className="lets-talk__btn">
-          <button>GET IN TOUCH</button>
-        </div>
-      </div>
+      <Banner />
 
       <footer>
         <div></div>

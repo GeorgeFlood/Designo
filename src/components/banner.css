@@ -1,0 +1,46 @@
+.lets-talk {
+  background-color: var(--orange);
+  background-image: url(../../assets/shared/desktop/bg-pattern-call-to-action.svg);
+  background-position: 100%;
+  grid-row: 6 / 8;
+  grid-column: 2 / 10;
+  z-index: 10;
+  height: 28rem;
+  border-radius: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+.lets-talk__text {
+  color: var(--white);
+}
+
+.lets-talk__text h1 {
+  font-size: 3.2rem;
+  width: 30%;
+}
+
+.lets-talk__text p {
+  font-size: 1.7rem;
+  margin-top: 2rem;
+  width: 60%;
+}
+
+.lets-talk__btn button {
+  padding: 2.5rem;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: #eee;
+
+  transition: background-color 0.15s ease-in-out;
+}
+
+.lets-talk__btn button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}

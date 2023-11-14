@@ -1,0 +1,7 @@
+footer {
+  background-color: #1c1b1d;
+  grid-row: 7 / 9;
+  grid-column: 1 / -1;
+  height: 40rem;
+  padding: 15rem 2rem 5rem 2rem;
+}

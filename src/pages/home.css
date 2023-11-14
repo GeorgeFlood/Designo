@@ -1,35 +1,3 @@
-:root {
-  --orange: rgb(232, 128, 105);
-  --white: #fff;
-  --black: #000;
-}
-
-*::before,
-*::after,
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-
-html {
-  font-size: 62.5%;
-  box-sizing: border-box;
-}
-
-body {
-  font-weight: 300;
-  line-height: 1.6;
-  position: relative;
-  background-image: url(../../assets/shared/desktop/bg-pattern-leaf.svg),
-    url(../../assets/shared/desktop/bg-pattern-leaf.svg);
-  background-repeat: no-repeat;
-
-  background-position:
-    top 25rem left 0,
-    top 150rem left 30rem;
-}
-
 .container {
   display: grid;
   grid-template-rows: min-content 90vh repeat(2, 23vw) min-content repeat(
@@ -37,34 +5,6 @@ body {
       min-content
     );
   grid-template-columns: 1fr repeat(8, minmax(min-content, 14rem)) 1fr;
-}
-.nav {
-  margin: 3.5rem 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  grid-row: 1 / 2;
-  grid-column: 2 / 10;
-}
-
-.nav img {
-  height: 2.6rem;
-  cursor: pointer;
-}
-
-.navbar {
-  display: flex;
-  list-style: none;
-  font-size: 1.4rem;
-  text-transform: uppercase;
-}
-
-.navbar li {
-  margin-left: 1.5rem;
-  letter-spacing: 0.35rem;
-  font-weight: 500;
-  cursor: pointer;
 }
 
 header {
@@ -93,7 +33,7 @@ header {
 }
 
 .head--info h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: 700;
 }
 
@@ -198,7 +138,7 @@ header {
 }
 
 .info {
-  margin: 5rem 0;
+  margin: 10rem 0;
 
   grid-row: 5 / 6;
   grid-column: 2 / 10;
@@ -247,53 +187,6 @@ header {
   color: var(--black);
   font-size: 1.6rem;
   font-weight: 400;
-}
-
-.lets-talk {
-  background-color: var(--orange);
-  background-image: url(../../assets/shared/desktop/bg-pattern-call-to-action.svg);
-  background-position: 100%;
-  grid-row: 6 / 8;
-  grid-column: 2 / 10;
-  z-index: 10;
-  height: 28rem;
-  border-radius: 1rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 4rem;
-}
-
-.lets-talk__text {
-  color: var(--white);
-}
-
-.lets-talk__text h1 {
-  font-size: 3.2rem;
-  width: 30%;
-}
-
-.lets-talk__text p {
-  font-size: 1.7rem;
-  margin-top: 2rem;
-  width: 60%;
-}
-
-.lets-talk__btn button {
-  padding: 2.5rem;
-  font-weight: 700;
-  outline: none;
-  border: none;
-  border-radius: 1rem;
-  cursor: pointer;
-  background-color: #eee;
-
-  transition: background-color 0.15s ease-in-out;
-}
-
-.lets-talk__btn button:hover {
-  background-color: rgba(255, 255, 255, 0.5);
 }
 
 footer {
