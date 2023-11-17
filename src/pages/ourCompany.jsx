@@ -1,9 +1,11 @@
 import "./ourCompany.css";
 import Navbar from "../components/Navbar";
+import LocationBar from "../components/LocationBar";
 import Banner from "../components/banner";
 import Footer from "../components/Footer";
 import aboutIMG from "../../assets/about/desktop/image-about-hero.jpg";
 import worldClassTalent from "../../assets/about/desktop/image-world-class-talent.jpg";
+import realDeal from "../../assets/about/desktop/image-real-deal.jpg";
 
 const OurCompany = () => {
   return (
@@ -26,7 +28,7 @@ const OurCompany = () => {
         </div>
       </header>
 
-      <div className="comp">
+      <div className="comp normal">
         <div className="comp__img">
           <img src={worldClassTalent} alt="world class talent" />
         </div>
@@ -45,6 +47,30 @@ const OurCompany = () => {
           </p>
         </div>
       </div>
+
+      <LocationBar gridRow="4 / 5" gridColumn="2 / 10" />
+
+      <div className="comp reverse">
+        <div className="comp__img">
+          <img src={realDeal} alt="the real deal" />
+        </div>
+        <div className="comp__text">
+          <h2>The real deal</h2>
+          <p>
+            As strategic partners in our clients’ businesses, we are ready to
+            take on any challenge as our own. Solving real problems require
+            empathy and collaboration, and we strive to bring a fresh
+            perspective to every opportunity. We make design and technology more
+            accessible and give you tools to measure success. We are visual
+            storytellers in appealing and captivating ways. By combining
+            business and marketing strategies, we inspire audiences to take
+            action and drive real results.
+          </p>
+        </div>
+      </div>
+
+      <Banner />
+      <footer />
     </div>
   );
 };

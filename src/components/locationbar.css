@@ -1,0 +1,52 @@
+.locationBar {
+  grid-row: 4 / 5;
+  grid-column: 2 / 10;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.locations {
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+}
+
+.locations img {
+  background-image: linear-gradient(
+    to right,
+    rgba(200, 200, 200, 0.3) 65%,
+    transparent
+  );
+  border-radius: 50%;
+}
+
+.locations h3 {
+  margin: 2rem 0;
+}
+
+.locations button {
+  font-size: 1.5rem;
+  background-color: var(--orange);
+  color: #fff;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 2rem 1.5rem;
+  letter-spacing: 0.2rem;
+  border-radius: 1rem;
+  transition: all ease-in-out 0.3s;
+}
+
+.locations button:hover {
+  background-color: rgba(232, 128, 105, 0.4);
+}
