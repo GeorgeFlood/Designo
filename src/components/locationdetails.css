@@ -1,0 +1,41 @@
+.location-info {
+  grid-row: 2 / 3;
+  grid-column: 2 / 10;
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 0;
+}
+
+.location-innercontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.location-image img {
+  border-radius: 1rem;
+}
+
+.location-address {
+  width: 100%;
+  height: 100%;
+  margin-left: 2rem;
+  border-radius: 1rem;
+  margin: auto;
+  text-align: center;
+  background-color: #fef2f0;
+}
+
+.location-address h3 {
+  font-size: 2.5rem;
+  color: var(--orange);
+}
+
+.location-flex {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-size: 1.5rem;
+}

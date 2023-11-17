@@ -70,7 +70,7 @@ const OurCompany = () => {
       </div>
 
       <Banner />
-      <footer />
+      <Footer />
     </div>
   );
 };
