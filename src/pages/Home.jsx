@@ -1,6 +1,7 @@
 import "./home.css";
 import Navbar from "../components/Navbar";
 import Banner from "../components/banner";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -864,11 +865,7 @@ const Home = () => {
 
       <Banner />
 
-      <footer>
-        <div></div>
-
-        <div></div>
-      </footer>
+      <Footer />
     </div>
   );
 };

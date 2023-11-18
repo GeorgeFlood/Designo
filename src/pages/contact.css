@@ -1,0 +1,92 @@
+.contact-container {
+  display: grid;
+
+  grid-template-rows: repeat(2, min-content);
+  grid-template-columns: 1fr repeat(8, minmax(min-content, 14rem)) 1fr;
+}
+
+.form-container {
+  grid-column: 2 / 10;
+  grid-row: 2 / 3;
+
+  display: flex;
+  background-color: var(--orange);
+  margin-bottom: 15rem;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+  height: 45rem;
+}
+
+.form-text {
+  color: white;
+  flex-basis: 40%;
+  margin: auto 0 auto 10rem;
+}
+
+.form-text h3 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.form-text p {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.form-inputs {
+  display: flex;
+  width: 60%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 10rem auto auto;
+}
+
+form input {
+  width: 40rem;
+  height: 5rem;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  background-color: var(--orange);
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 1.6rem;
+}
+
+form input::placeholder {
+  padding-left: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+form textarea {
+  height: 10rem;
+  width: 40rem;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 1.6rem;
+  background-color: var(--orange);
+}
+
+form textarea::placeholder {
+  padding-left: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+form button {
+  margin-left: auto;
+  margin-top: 1.5rem;
+  background-color: white;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  padding: 1.5rem 4rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
