@@ -12,7 +12,7 @@ const OurCompany = () => {
     <div className="comp-container">
       <Navbar />
 
-      <header>
+      <header className="comp--title">
         <div className="comp__header--text">
           <h2>About Us</h2>
           <p>
@@ -23,15 +23,11 @@ const OurCompany = () => {
             and digital experiences that connect with our clients' audiences.
           </p>
         </div>
-        <div className="comp__header--img">
-          <img src={aboutIMG} alt="about image" />
-        </div>
+        <div className="comp__header--img"></div>
       </header>
 
       <div className="comp normal">
-        <div className="comp__img">
-          <img src={worldClassTalent} alt="world class talent" />
-        </div>
+        <div className="comp__img"></div>
         <div className="comp__text">
           <h2>World-class talent</h2>
           <p>
@@ -51,9 +47,7 @@ const OurCompany = () => {
       <LocationBar gridRow="4 / 5" gridColumn="2 / 10" />
 
       <div className="comp reverse">
-        <div className="comp__img">
-          <img src={realDeal} alt="the real deal" />
-        </div>
+        <div className="reverse__img"></div>
         <div className="comp__text">
           <h2>The real deal</h2>
           <p>
