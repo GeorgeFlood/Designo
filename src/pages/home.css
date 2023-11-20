@@ -234,4 +234,8 @@
     grid-column: 3 / 9;
     flex-direction: column;
   }
+
+  .info svg {
+    margin-top: 5rem;
+  }
 }
