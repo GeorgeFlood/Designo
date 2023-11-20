@@ -44,3 +44,24 @@
 .lets-talk__btn button:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
+
+@media (max-width: 1281px) {
+  .lets-talk {
+    grid-row: 7 / 9;
+    grid-column: 3 / 9;
+    height: auto;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+  .lets-talk__text h1 {
+    font-size: 3.2rem;
+    width: 100%;
+  }
+
+  .lets-talk__text p {
+    font-size: 1.7rem;
+    width: 100%;
+    margin: 3rem 0rem;
+  }
+}

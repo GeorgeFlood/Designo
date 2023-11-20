@@ -8,7 +8,7 @@ const Home = () => {
     <div className="container">
       <Navbar />
 
-      <header>
+      <header className="intro">
         <div className="head--info">
           <h1>Award-winning custom designs and digital branding solutions</h1>
           <p>

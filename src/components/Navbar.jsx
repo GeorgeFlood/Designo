@@ -1,6 +1,7 @@
 import "./navbar.css";
 
 const Navbar = () => {
+  console.log("hello");
   return (
     <div className="nav">
       <img src="../../assets/shared/desktop/logo-dark.png" alt="Logo" />
