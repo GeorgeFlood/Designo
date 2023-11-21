@@ -9,10 +9,9 @@ function App() {
   return (
     <div className="app">
       {/* <Home /> */}
-      <OurCompany />
-      {/* <Location />
-      <Contact /> */}{" "}
-      */}
+      {/* <OurCompany /> */}
+      {/* <Location /> */}
+      <Contact />
     </div>
   );
 }

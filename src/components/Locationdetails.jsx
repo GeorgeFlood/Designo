@@ -40,13 +40,16 @@ const Locationdetails = ({
   phone,
   email,
   reverse,
+  index,
 }) => {
   const containerClass = reverse
     ? "location-innercontainer location-innercontainer-reverse"
     : "location-innercontainer";
+
+  const imageClass = `location-image location-image-${index}`;
   return (
     <div className={containerClass}>
-      <div className="location-image">
+      <div className={imageClass}>
         <img src={image} alt={`${country} office`} />
       </div>
 
@@ -73,7 +76,12 @@ const LocationList = () => {
   return (
     <div className="location-info">
       {details.map((location, index) => (
-        <Locationdetails key={index} {...location} reverse={index % 2 !== 0} />
+        <Locationdetails
+          key={index}
+          {...location}
+          reverse={index % 2 !== 0}
+          index={index + 1}
+        />
       ))}
     </div>
   );

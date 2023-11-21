@@ -90,3 +90,41 @@ form button {
   text-transform: uppercase;
   cursor: pointer;
 }
+
+@media (max-width: 1280px) {
+  .form-container {
+    grid-column: 3 / 9;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .form-text {
+    color: white;
+    flex-basis: 50%;
+    margin: 10em 15rem 2rem 15rem;
+    text-align: left;
+  }
+
+  form {
+    margin: 0;
+    margin: auto;
+  }
+
+  .form-inputs {
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+
+  form input {
+    width: 60rem;
+  }
+
+  form textarea {
+    width: 60rem;
+  }
+
+  form button {
+    margin: 5rem 0 5rem auto;
+  }
+}

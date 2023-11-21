@@ -59,3 +59,45 @@
   font-weight: 400;
   margin: 0.5rem 0;
 }
+
+@media (max-width: 1280px) {
+  .location-info {
+    grid-column: 3 / 9;
+  }
+
+  .location-innercontainer {
+    flex-direction: column;
+  }
+  .location-innercontainer-reverse {
+    flex-direction: column;
+  }
+  .location-image img {
+    display: none;
+  }
+  .location-image {
+    background-image: url(../../assets/locations/tablet/image-map-canada.png);
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+  }
+  .location-image-2 {
+    background-image: url(../../assets/locations/tablet/image-map-australia.png);
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+  }
+  .location-image-3 {
+    background-image: url(../../assets/locations/tablet/image-map-uk.png);
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+  }
+
+  .location-address {
+    height: 25rem;
+    margin-bottom: 5rem;
+    border-radius: 1rem;
+  }
+}
