@@ -3,9 +3,6 @@ import Navbar from "../components/Navbar";
 import LocationBar from "../components/LocationBar";
 import Banner from "../components/banner";
 import Footer from "../components/Footer";
-import aboutIMG from "../../assets/about/desktop/image-about-hero.jpg";
-import worldClassTalent from "../../assets/about/desktop/image-world-class-talent.jpg";
-import realDeal from "../../assets/about/desktop/image-real-deal.jpg";
 
 const OurCompany = () => {
   return (
