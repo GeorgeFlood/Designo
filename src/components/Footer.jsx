@@ -1,17 +1,23 @@
 import "./footer.css";
-// import logoDark from "../../assets/shared/desktop/logo-dark.pgn";
+import React from "react";
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer>
       <div className="footer-content">
         <div className="Logo-nav">
           <img src="../../assets/shared/desktop/logo-light.png" alt="" />
-          <nav className="footerNav">
-            <ul>
+          <nav className="navbar">
+            <Link to="/about">
               <li>Our company</li>
+            </Link>
+            <Link to="/location">
               <li>Location</li>
+            </Link>
+            <Link to="/contact">
               <li>Contact</li>
-            </ul>
+            </Link>
           </nav>
         </div>
 

@@ -27,20 +27,14 @@ footer {
   height: 2.5rem;
 }
 
-.navbar.footer {
+.Logo-nav nav li {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.35rem;
+  transition: color 0.3s ease-in-out;
 }
 
-.footerNav ul {
-  list-style: none;
-  font-size: 1.35rem;
-  font-weight: 500;
-  padding: 0;
-  text-transform: uppercase;
-  letter-spacing: 0.3rem;
-  display: flex;
-  gap: 20px;
+.Logo-nav nav li:hover {
+  color: var(--orange);
 }
 
 .address-links {
