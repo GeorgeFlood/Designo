@@ -239,3 +239,50 @@
     margin-top: 5rem;
   }
 }
+
+@media (max-width: 768px) {
+  .intro {
+    grid-column: 2 / 10;
+  }
+  .head--info {
+    width: 100%;
+  }
+
+  .head--info h1 {
+    font-size: 3rem;
+  }
+  .head--info p {
+    font-size: 1.5rem;
+  }
+
+  .web-design,
+  .graphic-design,
+  .app-design {
+    height: 15rem;
+    position: relative;
+  }
+
+  .web-design {
+    bottom: 7rem;
+  }
+
+  .graphic-design {
+    top: 7rem;
+  }
+
+  .web-design h1,
+  .graphic-design h1,
+  .app-design h1 {
+    font-size: 2rem;
+  }
+
+  .web-design p,
+  .graphic-design p,
+  .app-design p {
+    font-size: 1.5rem;
+  }
+
+  .passionate {
+    margin-top: 6rem;
+  }
+}

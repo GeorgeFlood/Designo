@@ -74,3 +74,28 @@ footer {
     flex-direction: column;
   }
 }
+
+@media (max-width: 768px) {
+  .Logo-nav {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+  .address-links {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .footer-contact {
+    margin: 4rem 0;
+  }
+
+  .socialLinks {
+    justify-content: space-between;
+  }
+}
