@@ -50,3 +50,9 @@
 .locations button:hover {
   background-color: rgba(232, 128, 105, 0.4);
 }
+
+@media (max-width: 765px) {
+  .locationBar {
+    flex-direction: column;
+  }
+}

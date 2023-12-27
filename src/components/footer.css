@@ -75,7 +75,7 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 765px) {
   .Logo-nav {
     flex-direction: column;
     justify-content: center;
@@ -96,6 +96,6 @@ footer {
   }
 
   .socialLinks {
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 }

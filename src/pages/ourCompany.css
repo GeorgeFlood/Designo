@@ -57,13 +57,16 @@
 
 .comp__text {
   margin: auto 10rem;
+  line-height: 2.8rem;
+  font-weight: italic;
+  color: #333136;
   width: 100%;
 }
 
 .comp__text h2 {
   color: var(--orange);
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 3.6rem;
+  margin-bottom: 3rem;
 }
 
 .comp__text p {
@@ -162,7 +165,11 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 765px) {
   .comp-container {
+  }
+
+  .comp__text {
+    margin: auto;
   }
 }
