@@ -128,3 +128,30 @@ form button {
     margin: 5rem 0 5rem auto;
   }
 }
+
+@media (max-width: 765px) {
+  .form-container {
+    grid-column: 1 / -1;
+    height: 73rem;
+  }
+
+  .form-text {
+    color: white;
+    flex-basis: 50%;
+
+    margin: 2rem 5rem;
+    text-align: center;
+    padding: 0;
+  }
+
+  .form-inputs {
+  }
+
+  form input {
+    width: 30rem;
+  }
+
+  form textarea {
+    width: 30rem;
+  }
+}

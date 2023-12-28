@@ -55,4 +55,12 @@
   .locationBar {
     flex-direction: column;
   }
+
+  .locations img {
+    margin-top: 2rem;
+  }
+
+  .locations button {
+    margin-bottom: 5rem;
+  }
 }

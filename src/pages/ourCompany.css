@@ -169,7 +169,46 @@
   .comp-container {
   }
 
+  .comp--title {
+    grid-column: 1 / -1;
+  }
+
+  .comp__header--img {
+    background-image: url(../assets/about/mobile/image-about-hero.jpg);
+    margin: 0;
+  }
+
+  .comp__header--text {
+    margin: 0;
+    padding: 0 2rem;
+  }
+
+  .comp__header--text h2 {
+    margin-top: 2rem;
+  }
+
+  .comp__header--text p {
+    margin-bottom: 3rem;
+  }
+
   .comp__text {
     margin: auto;
+  }
+  .comp__text h2 {
+    font-size: 2.5rem;
+  }
+
+  .comp__img {
+    background-image: url(../../assets/about/mobile/image-world-class-talent.jpg);
+  }
+
+  .comp.normal,
+  .comp.reverse {
+    grid-column: 1 / -1;
+    height: 90rem;
+  }
+
+  .reverse__img {
+    background-image: url(../../assets/about/mobile/image-real-deal.jpg);
   }
 }
