@@ -3,6 +3,7 @@ footer {
   grid-row: 7 / 9;
   grid-column: 1 / -1;
   height: 40rem;
+  margin-top: 5rem;
   padding: 15rem 2rem 5rem 2rem;
 }
 

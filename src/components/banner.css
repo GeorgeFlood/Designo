@@ -7,7 +7,7 @@
   z-index: 10;
   height: 28rem;
   border-radius: 1rem;
-
+  margin-top: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,7 +51,7 @@
     grid-column: 3 / 9;
     height: auto;
     flex-direction: column;
-    margin: auto;
+    margin-top: 5rem;
     text-align: center;
   }
   .lets-talk__text h1 {
