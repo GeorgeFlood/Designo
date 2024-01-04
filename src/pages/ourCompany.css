@@ -114,16 +114,19 @@
   }
 
   .comp__header--text {
-    text-align: center;
     width: 100%;
+    margin-top: auto;
+    text-align: center;
+    padding-top: 2rem;
+    height: 30rem;
   }
 
   .comp__text h2 {
     font-size: 5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   .comp__header--img {
-    background-image: url(../assets/about/tablet/image-about-hero.jpg);
+    background-image: url(../../assets/about/tablet/image-about-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -171,16 +174,18 @@
 
   .comp--title {
     grid-column: 1 / -1;
+    border-radius: 0;
   }
 
   .comp__header--img {
-    background-image: url(../assets/about/mobile/image-about-hero.jpg);
+    background-image: url(../../assets/about/mobile/image-about-hero.jpg);
     margin: 0;
   }
 
   .comp__header--text {
     margin: 0;
-    padding: 0 2rem;
+    height: 35rem;
+    padding: 2rem 2rem;
   }
 
   .comp__header--text h2 {

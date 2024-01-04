@@ -20,24 +20,26 @@ const Home = () => {
         </div>
       </header>
 
-      <div className="web-design">
-        <div className="project-links">
-          <h1>Web design</h1>
-          <p>View projects</p>
+      <div className="projects-container">
+        <div className="web-design">
+          <div className="project-links">
+            <h1>Web design</h1>
+            <p>View projects</p>
+          </div>
         </div>
-      </div>
 
-      <div className="app-design">
-        <div className="project-links">
-          <h1>App design</h1>
-          <p>View projects</p>
+        <div className="app-design">
+          <div className="project-links">
+            <h1>App design</h1>
+            <p>View projects</p>
+          </div>
         </div>
-      </div>
 
-      <div className="graphic-design">
-        <div className="project-links">
-          <h1>Graphic design</h1>
-          <p>Views projects</p>
+        <div className="graphic-design">
+          <div className="project-links">
+            <h1>Graphic design</h1>
+            <p>Views projects</p>
+          </div>
         </div>
       </div>
 

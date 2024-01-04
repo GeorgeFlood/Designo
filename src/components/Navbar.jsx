@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
+import logo from "../../assets/shared/desktop/logo-dark.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="nav">
       <Link to="/">
-        <img src="../../assets/shared/desktop/logo-dark.png" alt="Logo" />
+        <img src={logo} alt="Logo" />
       </Link>
 
       {/* Existing desktop navigation */}

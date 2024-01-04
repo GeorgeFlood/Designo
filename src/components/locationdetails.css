@@ -50,8 +50,7 @@
 }
 
 .location-flex-left {
-  margin-top: 8.8%;
-  margin-right: 3rem;
+  margin-top: 5rem;
 }
 
 .location-flex-left p {
@@ -112,5 +111,19 @@
 
   .location-image {
     background-image: url(../../assets/locations/tablet/image-map-canada.png);
+  }
+
+  .location-address {
+    height: 30rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .location-flex-right {
+    margin: 0;
+  }
+
+  .location-flex-left {
+    margin-top: 0;
   }
 }

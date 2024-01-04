@@ -1,13 +1,14 @@
 import "./footer.css";
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../../assets/shared/desktop/logo-light.png";
 
 const Footer = () => {
   return (
     <footer>
       <div className="footer-content">
         <div className="Logo-nav">
-          <img src="../../assets/shared/desktop/logo-light.png" alt="" />
+          <img src={logo} alt="" />
           <nav className="navbar">
             <Link to="/about">
               <li>Our company</li>

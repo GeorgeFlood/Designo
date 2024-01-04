@@ -1,9 +1,12 @@
 import React from "react";
 import "./Locationdetails.css";
+import UK from "../../assets/locations/desktop/image-map-united-kingdom.png";
+import aus from "../../assets/locations/desktop/image-map-australia.png";
+import canada from "../../assets/locations/desktop/image-map-canada.png";
 
 const details = [
   {
-    image: "../assets/locations/desktop/image-map-canada.png",
+    image: canada,
     country: "Canada",
     officeName: "Designo Central Office",
     address: "3886 Wellington Street",
@@ -12,7 +15,7 @@ const details = [
     email: "contact@designo.ca",
   },
   {
-    image: "../assets/locations/desktop/image-map-australia.png",
+    image: aus,
     country: "Australia",
     officeName: "Designo AU Office",
     address: "19 Balonne Street",
@@ -21,7 +24,7 @@ const details = [
     email: "contact@designo.com.au",
   },
   {
-    image: "../assets/locations/desktop/image-map-united-kingdom.png",
+    image: UK,
     country: "United Kingdom",
     officeName: "Designo UK Office",
     address: "13 Colorado Way",

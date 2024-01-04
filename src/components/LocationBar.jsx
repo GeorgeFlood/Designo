@@ -1,20 +1,24 @@
 import React from "react";
 import "./locationBar.css";
 
+import canada from "../../assets/shared/desktop/illustration-canada.svg";
+import australia from "../../assets/shared/desktop/illustration-australia.svg";
+import uk from "../../assets/shared/desktop/illustration-united-kingdom.svg";
+
 const locations = [
   {
     name: "CANADA",
-    image: "../../assets/shared/desktop/illustration-canada.svg",
+    image: canada,
     alt: "Canada illustration",
   },
   {
     name: "Australia",
-    image: "../../assets/shared/desktop/illustration-australia.svg",
+    image: australia,
     alt: "Australia illustration",
   },
   {
     name: "United Kingdom",
-    image: "../../assets/shared/desktop/illustration-united-kingdom.svg",
+    image: uk,
     alt: "United Kingdom illustration",
   },
 ];

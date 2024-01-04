@@ -129,6 +129,19 @@ form button {
   }
 }
 
+@media (max-width: 1280px) {
+  .form-container {
+    height: 100%;
+    margin-bottom: 1rem;
+    padding-bottom: 5rem;
+  }
+
+  .form-text {
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+}
+
 @media (max-width: 765px) {
   .form-container {
     grid-column: 1 / -1;
@@ -153,5 +166,8 @@ form button {
 
   form textarea {
     width: 30rem;
+  }
+  form button {
+    padding: 1rem 3rem;
   }
 }
